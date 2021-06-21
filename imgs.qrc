@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>background.jpg</file>
+        <file>info.png</file>
+        <file>star.png</file>
+        <file>scoreboard.png</file>
+        <file>start.png</file>
+        <file>circle.png</file>
+        <file>quiz.png</file>
+        <file>down-arrow.png</file>
+        <file>right-arrow.png</file>
+        <file>red.jpg</file>
+        <file>maths.png</file>
+        <file>gens.png</file>
+        <file>mixkit-fantasy-game-success-notification-270.wav</file>
+        <file>owl.png</file>
+        <file>wordgame.jpg</file>
+        <file>panda.png</file>
+        <file>differentletter.jpg</file>
+        <file>bluec.png</file>
+        <file>redc.png</file>
+        <file>circle-64.png</file>
+    </qresource>
+</RCC>
