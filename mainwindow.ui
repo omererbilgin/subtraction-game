@@ -27,7 +27,7 @@
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="level1">
      <property name="styleSheet">
@@ -139,7 +139,7 @@
        <rect>
         <x>0</x>
         <y>110</y>
-        <width>171</width>
+        <width>201</width>
         <height>51</height>
        </rect>
       </property>
@@ -148,7 +148,7 @@
 font: 57 italic 65pt &quot;Z003&quot;;</string>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; color:#f6f5f4;&quot;&gt;Game Board&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt; color:#f6f5f4;&quot;&gt;Game Board&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QTextEdit" name="textEdit">
@@ -306,7 +306,7 @@ p, li { white-space: pre-wrap; }
        <rect>
         <x>10</x>
         <y>470</y>
-        <width>221</width>
+        <width>281</width>
         <height>41</height>
        </rect>
       </property>
@@ -315,7 +315,7 @@ p, li { white-space: pre-wrap; }
 font: 57 italic 65pt &quot;Z003&quot;;</string>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; color:#f6f5f4;&quot;&gt;Number Sentence&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt; color:#f6f5f4;&quot;&gt;Number Sentence&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_3">
@@ -1674,7 +1674,7 @@ border-image: none;</string>
 font: 57 italic 65pt &quot;Z003&quot;;</string>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; color:#f6f5f4;&quot;&gt;Final Answer&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt; color:#f6f5f4;&quot;&gt;Final Answer&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_4">
@@ -1797,7 +1797,7 @@ font: 75 italic 30pt bold &quot;Cantarell&quot;;
        <rect>
         <x>10</x>
         <y>340</y>
-        <width>151</width>
+        <width>211</width>
         <height>51</height>
        </rect>
       </property>
@@ -1806,7 +1806,7 @@ font: 75 italic 30pt bold &quot;Cantarell&quot;;
 font: 57 italic 65pt &quot;Z003&quot;;</string>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; color:#f6f5f4;&quot;&gt;Bar Model&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt; color:#f6f5f4;&quot;&gt;Bar Model&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_4">
@@ -1814,7 +1814,7 @@ font: 57 italic 65pt &quot;Z003&quot;;</string>
        <rect>
         <x>10</x>
         <y>0</y>
-        <width>541</width>
+        <width>601</width>
         <height>31</height>
        </rect>
       </property>
@@ -1822,15 +1822,15 @@ font: 57 italic 65pt &quot;Z003&quot;;</string>
        <string notr="true">border-image: none;</string>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#f6f5f4;&quot;&gt;Once upon a time, there was a blue game board who liked to be&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#f6f5f4;&quot;&gt;Gleeb is a Martian child. He grows blue fruits in his garden. He&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_5">
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>20</y>
-        <width>531</width>
+        <y>60</y>
+        <width>601</width>
         <height>31</height>
        </rect>
       </property>
@@ -1838,7 +1838,7 @@ font: 57 italic 65pt &quot;Z003&quot;;</string>
        <string notr="true">border-image: none;</string>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#f6f5f4;&quot;&gt;painted in red, but in only one condition! The painted rectangle &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#f6f5f4;&quot;&gt;Click to collect, and click again to replace the fruits!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_6">
@@ -1846,7 +1846,7 @@ font: 57 italic 65pt &quot;Z003&quot;;</string>
        <rect>
         <x>10</x>
         <y>40</y>
-        <width>581</width>
+        <width>601</width>
         <height>31</height>
        </rect>
       </property>
@@ -1854,15 +1854,15 @@ font: 57 italic 65pt &quot;Z003&quot;;</string>
        <string notr="true">border-image: none;</string>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#f6f5f4;&quot;&gt;amount had to match the magic numbers. Now the rectangle is back &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#f6f5f4;&quot;&gt;How many blue fruits are left?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_7">
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>60</y>
-        <width>501</width>
+        <y>20</y>
+        <width>601</width>
         <height>31</height>
        </rect>
       </property>
@@ -1910,7 +1910,7 @@ font: 57 italic 65pt &quot;Z003&quot;;</string>
        <rect>
         <x>20</x>
         <y>220</y>
-        <width>131</width>
+        <width>151</width>
         <height>51</height>
        </rect>
       </property>
@@ -1919,7 +1919,7 @@ font: 57 italic 65pt &quot;Z003&quot;;</string>
 font: 57 italic 65pt &quot;Z003&quot;;</string>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; color:#f6f5f4;&quot;&gt;Select Paint&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#f6f5f4;&quot;&gt;Select Color&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_15">
