@@ -222,15 +222,11 @@ MainWindow::MainWindow(QWidget *parent)
     ui->levels->setCurrentIndex(0);
 
 
-
-    // ui->number_label->setText(("<html><head/><body><p><span style=' font-size:28pt; font-weight:600; color:#ffffff;'>" + QString::number(num) + "</span></p></body></html>"));
-
-    if(!(level == 5)){
-    QString questionlevel1 = "<html><head/><body><p><span style=' font-size:14pt; color:#f6f5f4;'>and the magic numbers are </span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'>60 </span><span style=' font-size:14pt; color:#f6f5f4;'>and</span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'> " + QString::number(rdm) + " </span><span style=' font-size:14pt; color:#f6f5f4;'>. Can you help him? </span></p></body></html>";
+   QString questionlevel1 = "<html><head/><body><p><span style=' font-size:14pt; color:#f6f5f4;'>collected </span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'>" + QString::number(rdm) + "</span><span style=' font-size:14pt; color:#f6f5f4;'></span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'></span><span style=' font-size:14pt; color:#f6f5f4;'> fruits.</span></p></body></html>";
    ui->label_7->setText(questionlevel1);
-    }
 
-
+   QString questionadd = "<html><head/><body><p><span style=' font-size:14pt; color:#f6f5f4;'>How many blue fruits are left?</span></p></body></html>";
+    ui->label_6->setText(questionadd);
 
 }
 
@@ -4991,8 +4987,12 @@ if(level == 1 || level == 2){
     ui->pushButton_10->setStyleSheet("border-image: url(:/quiz.png)");
 
     // and for           2
-    QString questionlevel1 = "<html><head/><body><p><span style=' font-size:14pt; color:#f6f5f4;'>and the magic numbers are </span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'>60 </span><span style=' font-size:14pt; color:#f6f5f4;'>and</span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'> " + QString::number(rdm) + " </span><span style=' font-size:14pt; color:#f6f5f4;'>. Can you help him? </span></p></body></html>";
+    QString questionlevel1 = "<html><head/><body><p><span style=' font-size:14pt; color:#f6f5f4;'>collected </span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'>" + QString::number(rdm) + "</span><span style=' font-size:14pt; color:#f6f5f4;'></span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'></span><span style=' font-size:14pt; color:#f6f5f4;'> fruits.</span></p></body></html>";
     ui->label_7->setText(questionlevel1);
+
+    QString questionadd = "<html><head/><body><p><span style=' font-size:14pt; color:#f6f5f4;'>How many blue fruits are left?</span></p></body></html>";
+     ui->label_6->setText(questionadd);
+
 
     resetgb();
 
@@ -5057,8 +5057,11 @@ if(level == 3 || level == 4){
     ui->pushButton_10->setStyleSheet("border-image: url(:/quiz.png)");
 
     // and for           4
-    QString questionlevel3 = "<html><head/><body><p><span style=' font-size:14pt; color:#f6f5f4;'>and the magic numbers are </span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'>60 </span><span style=' font-size:14pt; color:#f6f5f4;'>and</span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'> " + QString::number(rdm) + " </span><span style=' font-size:14pt; color:#f6f5f4;'>. Can you help him? </span></p></body></html>";
+    QString questionlevel3 = "<html><head/><body><p><span style=' font-size:14pt; color:#f6f5f4;'>collected some fruits. Now there are </span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'></span><span style=' font-size:14pt; color:#f6f5f4;'></span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'>" + QString::number(rdm) + "</span><span style=' font-size:14pt; color:#f6f5f4;'> blue fruits in his garden.</span></p></body></html>";
     ui->label_7->setText(questionlevel3);
+    QString questionadd = "<html><head/><body><p><span style=' font-size:14pt; color:#f6f5f4;'>How many blue fruits did Gleeb collect?</span></p></body></html>";
+    ui->label_6->setText(questionadd);
+
 
     resetgb();
 
@@ -5094,8 +5097,10 @@ if(level == 5){
     ui->pushButton_10->setStyleSheet("border-image: url(:/quiz.png)");
 
 
-    QString questionlevel5 = "<html><head/><body><p><span style=' font-size:14pt; color:#f6f5f4;'>and the magic numbers are </span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'>" + QString::number(rdm1) + " </span><span style=' font-size:14pt; color:#f6f5f4;'>and</span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'> " + QString::number(rdm) + " </span><span style=' font-size:14pt; color:#f6f5f4;'>. Can you help him? </span></p></body></html>";
+    QString questionlevel5 = "<html><head/><body><p><span style=' font-size:14pt; color:#f6f5f4;'>collected </span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'>" + QString::number(rdm1) + "</span><span style=' font-size:14pt; color:#f6f5f4;'> fruits. Now there are </span><span style=' font-size:14pt; font-weight:600; text-decoration: underline; color:#f6f5f4;'>" + QString::number(rdm) + "</span><span style=' font-size:14pt; color:#f6f5f4;'> blue fruits in the garden.</span></p></body></html>";
     ui->label_7->setText(questionlevel5);
+    QString questionadd = "<html><head/><body><p><span style=' font-size:14pt; color:#f6f5f4;'>How many blue fruits were there in the garden initially?</span></p></body></html>";
+    ui->label_6->setText(questionadd);
 
     ui->pushButton_13->show();
     ui->pushButton_14->show();
